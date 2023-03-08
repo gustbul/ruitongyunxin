@@ -12,8 +12,8 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: zuohuadong/ruitongyunxin
-#      url: ${{ steps.deployment.outputs.page_url }}
+      #url: zuohuadong/ruitongyunxin
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
         with:
